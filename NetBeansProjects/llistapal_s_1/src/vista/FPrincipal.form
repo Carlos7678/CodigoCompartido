@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Accions"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="miDefineixSeparadors">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="definir separadors"/>
+                <Property name="toolTipText" type="java.lang.String" value="Defineix els separadors de les paraules d&apos;un text"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miAMajuscules">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="passar a maj&#xfa;scules"/>
+                <Property name="toolTipText" type="java.lang.String" value="Passa a maj&#xfa;scules totes les paraules"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miInicialAMjuscules">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="posar inicial a maj&#xfa;scules"/>
+                <Property name="toolTipText" type="java.lang.String" value="Posa la primera lletra a maj&#xfa;scules de totes les paraules de la llista"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="llista">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Llista"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="miGuardaLlista">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guarda"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Guarda la llista en el fitxer"/>
+                    <Property name="actionCommand" type="java.lang.String" value="Guarda llista fitxer"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="miAfegeixLlista">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Afegeix"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Afegeix la llista al fitxer"/>
+                    <Property name="actionCommand" type="java.lang.String" value="Afegeix llista fitxer"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="miRecuperaLlista">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Recupera"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Recupera la llista del fitxer"/>
+                    <Property name="actionCommand" type="java.lang.String" value="Recupera llista fitxer"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miEixir">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eixir"/>
+                <Property name="toolTipText" type="java.lang.String" value="Tanca l&#x2019;aplicaci&#xf3;"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Afegir"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="miAfegirUnaParaula">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="UNA paraula"/>
+                <Property name="toolTipText" type="java.lang.String" value="Insereix una paraula al final"/>
+                <Property name="actionCommand" type="java.lang.String" value="afegir una paraula"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miAfegirUnaParaulaEn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="UNA paraula en"/>
+                <Property name="toolTipText" type="java.lang.String" value="Insereix una paraula en la posici&#xf3; indicada"/>
+                <Property name="actionCommand" type="java.lang.String" value="afegir una  paraula en"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miAfegirParaulesText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="paraules d&apos;un text"/>
+                <Property name="toolTipText" type="java.lang.String" value="Afegeix les paraules d&apos;un text llegit de teclat "/>
+                <Property name="actionCommand" type="java.lang.String" value="afegir paraules d&apos;un text"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Esborrar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="miEsborrarUnaParaula">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="UNA paraula"/>
+                <Property name="toolTipText" type="java.lang.String" value="Esborra la paraula que li indiquem"/>
+                <Property name="actionCommand" type="java.lang.String" value="esborrar una paraula"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miEsborrarParaulesRepetides">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="paraules repetides"/>
+                <Property name="toolTipText" type="java.lang.String" value="Elimina les paraules repetides, totes menys una"/>
+                <Property name="actionCommand" type="java.lang.String" value="esborrar paraules repetides"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miEsborrarParaules">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="paraules d&apos;un text"/>
+                <Property name="toolTipText" type="java.lang.String" value="Esborra les paraules del text llegit de teclat"/>
+                <Property name="actionCommand" type="java.lang.String" value="esborrar paraules d&apos;un text"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Visualitzar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="miVisualitzaUnaParaula">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="UNA paraula"/>
+                <Property name="toolTipText" type="java.lang.String" value="Visualitza la paraula en la posici&#xf3; indicada"/>
+                <Property name="actionCommand" type="java.lang.String" value="visualitzar una  paraula"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miVisualitzaLesParaules">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="totes les paraules"/>
+                <Property name="toolTipText" type="java.lang.String" value="Visualitza la llista completa, la posici&#xf3; i la paraula"/>
+                <Property name="actionCommand" type="java.lang.String" value="visualitzar totes les paraules"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ordena"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="miOrdenaAlfabeticament">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="alfab&#xe8;ticament"/>
+                <Property name="toolTipText" type="java.lang.String" value="Ordena alfab&#xe8;ticament les paraules"/>
+                <Property name="actionCommand" type="java.lang.String" value="ordena alfab&#xe8;ticament"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miOrdenaLongitudParaula">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="longitud paraula"/>
+                <Property name="toolTipText" type="java.lang.String" value="ordena per la longitud de les paraules"/>
+                <Property name="actionCommand" type="java.lang.String" value="ordena per la longitud"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="miOrdenaNombreVocals">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="nombre de vocals"/>
+                <Property name="toolTipText" type="java.lang.String" value="ordena pel nombre de vocals de les paraules"/>
+                <Property name="actionCommand" type="java.lang.String" value="ordena pel nombre de vocals"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="597" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="425" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="taPantalla">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

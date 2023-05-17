@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"vista","l":"FPrincipal"},{"p":"encripta","l":"Inici"},{"p":"oovv","l":"UnText"}];updateSearchResults();
